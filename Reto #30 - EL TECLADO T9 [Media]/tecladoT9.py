@@ -10,3 +10,17 @@ teclado = {
     "9":["w","x","y","z"],
     "0":[" "]
 }
+
+def tranformar(str):
+    descomposicion = str.split("-")
+    key = ""
+    texto_final = ""
+    for i in descomposicion:
+        key = i[0]
+        pos = len(i)
+        texto_final += (teclado[key][pos - 1])
+    print(texto_final)
+
+cadena = "6-666-88-777-33-3-33-888"
+
+tranformar(cadena)
