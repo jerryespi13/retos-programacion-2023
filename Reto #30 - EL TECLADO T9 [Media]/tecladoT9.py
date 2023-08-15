@@ -11,19 +11,18 @@ teclado = {
     "0":[" "]
 }
 
-def tranformar(str):
-    descomposicion = str.split("-")
+def tranformar(cadena):
     key = ""
     texto_final = ""
-    for i in descomposicion:
+    for i in cadena.split("-"):
         for k in range(len(i)):
             if i[k] != i[0]:
-                return print("Por favor usa el formato correcto")
+                exit( print("Por favor usa el formato correcto"))
+
         key = i[0]
-        pos = len(i)
+        pos = len(i) % len(teclado[key])
         texto_final += (teclado[key][pos - 1])
-    print(texto_final.upper())
+    return texto_final.upper()
 
-cadena = "5-33-777-777-999"
 
-tranformar(cadena)
+print(tranformar("5-33-777-777-999"))
