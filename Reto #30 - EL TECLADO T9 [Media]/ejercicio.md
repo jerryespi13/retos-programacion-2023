@@ -17,6 +17,8 @@
  * - Ejemplo:
  *     Entrada: 6-666-88-777-33-3-33-888
  *     Salida: MOUREDEV
+       Entrada: 5-33-777-777-999
+ *     Salida: JERRY
  */
 ```
 #### Tienes toda la información extendida sobre los retos de programación semanales en **[retosdeprogramacion.com/semanales2023](https://retosdeprogramacion.com/semanales2023)**.
