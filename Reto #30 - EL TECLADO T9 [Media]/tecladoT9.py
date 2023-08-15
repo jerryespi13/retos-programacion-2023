@@ -16,11 +16,14 @@ def tranformar(str):
     key = ""
     texto_final = ""
     for i in descomposicion:
+        for k in range(len(i)):
+            if i[k] != i[0]:
+                return print("Por favor usa el formato correcto")
         key = i[0]
         pos = len(i)
         texto_final += (teclado[key][pos - 1])
-    print(texto_final)
+    print(texto_final.upper())
 
-cadena = "6-666-88-777-33-3-33-888"
+cadena = "5-33-777-777-999"
 
 tranformar(cadena)
