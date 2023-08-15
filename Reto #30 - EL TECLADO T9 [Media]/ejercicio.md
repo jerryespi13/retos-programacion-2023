@@ -1,6 +1,8 @@
 # Reto #30: El teclado T9
 #### Dificultad: Media | Publicación: 24/07/23 | Corrección: 31/07/23
 
+![reto30](./Reto #30 - EL TECLADO T9 [Media]\teclado-t9.avif)
+
 ## Enunciado
 
 ```
