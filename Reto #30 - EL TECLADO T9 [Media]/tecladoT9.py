@@ -26,3 +26,4 @@ def tranformar(cadena):
 
 
 print(tranformar("5-33-777-777-999"))
+print(tranformar("2222"))
